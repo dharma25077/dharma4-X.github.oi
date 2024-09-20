@@ -1,0 +1,226 @@
+/* General styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #e3f2fd; /* Latar belakang biru muda */
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #0d47a1; /* Biru gelap */
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header a.logo {
+    font-size: 1.8rem;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav a {
+    margin: 0 15px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+}
+
+header nav a:hover,
+header nav a.active {
+    color: #ffeb3b; /* Warna kuning */
+}
+
+/* Home Section */
+.home {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 20px;
+    background: linear-gradient(to right, #64b5f6, #1976d2); /* Gradasi biru */
+}
+
+.home-content h1 {
+    font-size: 3rem;
+    color: #fff;
+}
+
+.home-content span {
+    color: #ffeb3b;
+}
+
+.home-content p {
+    margin: 20px 0;
+    color: #ffffff; /* Teks putih untuk kontras */
+}
+
+.home-content .btn {
+    display: inline-block;
+    padding: 10px 25px;
+    background-color: #ffeb3b; /* Kuning */
+    color: #0d47a1; /* Biru gelap */
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.home-content .btn:hover {
+    background-color: #fbc02d; /* Kuning lebih gelap saat hover */
+}
+
+.social-icons a {
+    margin: 0 10px;
+    color: #ffeb3b;
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #fff; /* Berubah jadi putih saat hover */
+}
+
+/* About Section */
+.about-section {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #bbdefb; /* Biru pastel */
+}
+
+.about-section h1 {
+    font-size: 2.5rem;
+    color: #0d47a1;
+    margin-bottom: 20px;
+}
+
+.about-section p {
+    font-size: 1.1rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.about-section button {
+    background-color: #0d47a1;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.about-section button:hover {
+    background-color: #0b3c8a; /* Biru lebih gelap saat hover */
+}
+
+/* Skills Section */
+.skills-section {
+    padding: 50px 20px;
+    background-color: #64b5f6; /* Biru cerah */
+}
+
+.skills-section h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #fff;
+}
+
+.skills-section p {
+    text-align: center;
+    font-size: 1.1rem;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #bbdefb; /* Biru pastel */
+    margin-bottom: 20px;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-icon img {
+    width: 80px;
+    height: 80px;
+}
+
+.card-body h3 {
+    font-size: 1.5rem;
+    color: #0d47a1;
+    margin-bottom: 10px;
+}
+
+.card-body p {
+    font-size: 1rem;
+    color: #333;
+}
+
+/* Contact Section */
+.contact-section {
+    padding: 50px 20px;
+    background-color: #e3f2fd; /* Latar belakang biru muda */
+}
+
+.contact-section h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #0d47a1;
+}
+
+.contact-section p {
+    text-align: center;
+    font-size: 1.1rem;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+form input,
+form textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #0d47a1;
+    border-radius: 5px;
+    outline: none;
+}
+
+form input:focus,
+form textarea:focus {
+    border-color: #1976d2; /* Biru saat fokus */
+}
+
+button[type="submit"] {
+    padding: 10px;
+    background-color: #0d47a1;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #0b3c8a; /* Biru lebih gelap saat hover */
+}
